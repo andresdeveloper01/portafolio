@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Epic Movie",
+    "img": "https://github.com/andresdeveloper01/epic-movie/blob/main/photos/home.png?raw=true",
+    "id": 1,
+    "tecnologies": "React, React Player, React Icons, Tailwind",
+    "repository": "https://github.com/andresdeveloper01/epic-movie",
+    "web": "https://epic-movie.vercel.app/"
+  },
+  {
+    "name": "Alura Geek",
+    "img": "https://github.com/andresdeveloper01/alura-geek/blob/main/photos/Captura%20de%20pantalla%202023-03-25%20094129.png?raw=true",
+    "id": 2,
+    "tecnologies": "React, React Router DOM, React Icons, Tailwind",
+    "repository": "https://github.com/andresdeveloper01/alura-geek",
+    "web": "https://alurageek-e-commerce.netlify.app/"
+  },
+  {
+    "name": "Pizzería Don Remolo",
+    "img": "https://raw.githubusercontent.com/lamc305/Pizzeria-736/main/photos/home.webp",
+    "id": 3,
+    "tecnologies": "ReactJS, CSS Vanilla, Intersection Observer",
+    "repository": "https://github.com/lamc305/Pizzeria-736",
+    "web": "https://don-remolo-pizzeria.vercel.app/"
+  },
+  {
+    "name": "Juego del ahorcado",
+    "img": "https://github.com/andresdeveloper01/Juego-Ahorcado/blob/master/Ahorcado.png?raw=true",
+    "id": 4,
+    "tecnologies": "HTML, CSS, JavaScript",
+    "repository": "https://github.com/andresdeveloper01/Juego-Ahorcado",
+    "web": "https://game-ahorcadoandres.netlify.app/"
+  },
+
+  {
+    "name": "Encriptador de texto",
+    "img": "https://github.com/andresdeveloper01/Encriptador-de-Texto/blob/gh-pages/Encriptador.png?raw=true",
+    "id": 5,
+    "tecnologies": "HTML, CSS, JavaScript",
+    "repository": "https://github.com/andresdeveloper01/Encriptador-de-Texto",
+    "web": "https://andresdeveloper01.github.io/Encriptador-de-Texto/"
+  }
+]
