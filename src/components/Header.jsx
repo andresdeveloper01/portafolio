@@ -19,11 +19,11 @@ const Header = () => {
           <div className='flex flex-col items-center min-[990px]:gap-7 min-[400px]:mb-16 md:mb-0'>
             <p className='text-2xl'>¡Hola!</p>
             <h1 className='text-5xl font-bold text-center mb-3'> Soy Andres Pulupa</h1>
-            <p className='text-3xl font-medium text-center'>Desarrolador Frontend</p>
+            <p className='text-3xl font-medium text-center'>Desarrollador Frontend</p>
             <ul className='flex gap-4 mt-3 flex-wrap justify-center'>
               <li><a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href='https://github.com/andresdeveloper01' target='_blank' rel='noreferrer'>GitHub <BsGithub /></a></li>
               <li><a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href='https://www.linkedin.com/in/andres-pulupa/' target='_blank' rel='noreferrer'>Linkedin <AiFillLinkedin /></a></li>
-              <li><a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href='https://drive.google.com/file/d/1B6gjH5ws_Z3SQ6IIjlTjMtZY2YoOVLZ_/view' target='_blank' rel='noreferrer'>CV <CiFolderOn /></a></li>
+              <li><a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href='https://drive.google.com/file/d/1cuAvvbQPAs58FqiaJk6qogZDeyNpRh6B/view' target='_blank' rel='noreferrer'>CV <CiFolderOn /></a></li>
               <li><a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href='mailto:andrespulupa18@gmail.com' target='_blank' rel='noreferrer'>Contactame <FiMail /></a></li>
             </ul>
           </div>
