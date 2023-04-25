@@ -6,13 +6,16 @@ export function IntersectionObserverProvider ({ children }) {
   const [toggleActive, setToggleActive] = useState('home')
 
   const [ref1, inView1] = useInView({
-    rootMargin: '-150px'
+    rootMargin: '-100px 0px 0px 0px',
+    threshold: 0.5
   })
   const [ref2, inView2] = useInView({
-    rootMargin: '-150px'
+    rootMargin: '-100px 0px 0px 0px',
+    threshold: 0.5
   })
   const [ref3, inView3] = useInView({
-    rootMargin: '-150px'
+    rootMargin: '-100px 0px 0px 0px',
+    threshold: 0.5
   })
 
   useEffect(() => {

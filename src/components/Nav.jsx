@@ -8,7 +8,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
   const { toggleActive } = useContext(IntersectionObserver)
   return (
-    <section className='h-52 sm:h-auto'>
+    <section className='sm:h-auto'>
       <nav className='sm:fixed w-full navbar z-10 '>
         <div className='mx-auto px-2 sm:px-6 lg:px-8 sm:max-w-[610px] md:max-w-[720px] min-[990px]:max-w-[960px] min-[1200px]:max-w-[1160px] ease-in-out duration-500 min-[1400px]:max-w-[1340px]'>
           <div className='relative flex items-center justify-between h-16'>
