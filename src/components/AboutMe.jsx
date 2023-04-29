@@ -11,7 +11,7 @@ import { IntersectionObserver } from '../context/IntersectionObserver'
 const AboutMe = () => {
   const { ref2 } = useContext(IntersectionObserver)
   return (
-    <section id='about' ref={ref2} className='min-h-screen flex flex-col items-center justify-center sm:px-5 sm:max-w-[610px] md:max-w-[720px] mx-auto'>
+    <section id='about' ref={ref2} className='min-h-[76vh] flex flex-col items-center justify-center sm:px-5 sm:max-w-[610px] md:max-w-[720px] mx-auto'>
       <h2 className='text-3xl font-semibold py-7 my-3'>Sobre mi</h2>
       <p className='px-5 text-center sm:text-lg'>He realizado proyectos creando soluciones y transformando diseño en código. Disfruto el trabajo en equipo, aprender de mis compañeros, adquirir nuevo conocimiento y habilidades.</p>
       <h3 className='mt-3 w-full pl-6 text-lg sm:text-2xl font-medium'>Mis habilidades:</h3>

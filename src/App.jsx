@@ -8,10 +8,8 @@ function App () {
     <>
       <IntersectionObserverProvider>
         <Header />
-        <main>
-          <AboutMe />
-          <Projects />
-        </main>
+        <AboutMe />
+        <Projects />
       </IntersectionObserverProvider>
     </>
   )

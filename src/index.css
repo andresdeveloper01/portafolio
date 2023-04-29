@@ -26,41 +26,10 @@ content: "";
 
 .container-before:hover :nth-child(2) {
 opacity: 1;
-top: 30%;
+top: 0;
 }
 
 .active {
 border-bottom: 1px solid #fff;
 opacity:1;
-}
-
-
-@media (min-width: 400px) {
-  .container-before:hover :nth-child(2) {
-top: 40%;
-}
-}
-
-@media (min-width: 575px) {
-  .container-before:hover :nth-child(2) {
-top: 12%;
-}
-}
-
-@media (min-width: 768px) {
-  .container-before:hover :nth-child(2) {
-top: 6%;
-}
-}
-
-@media (min-width: 990px) {
-  .container-before:hover :nth-child(2) {
-top: 30%;
-}
-}
-
-@media (min-width: 1400px) {
-  .container-before:hover :nth-child(2) {
-top: 40%;
-}
 }
