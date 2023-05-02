@@ -9,6 +9,7 @@
 @tailwind utilities;
 
 body {
+  background: linear-gradient(to right, #141517 0%, #020405 100%);
   color: #fff;
   font-family: "Ubuntu", sans-serif;
 }
