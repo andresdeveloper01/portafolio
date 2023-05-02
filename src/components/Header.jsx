@@ -12,7 +12,7 @@ import { IntersectionObserver } from '../context/IntersectionObserver'
 const links = [
   { url: 'https://github.com/andresdeveloper01', title: 'GitHub', icon: <BsGithub /> },
   { url: 'https://www.linkedin.com/in/andres-pulupa/', title: 'Linkedin', icon: <AiFillLinkedin /> },
-  { url: 'https://drive.google.com/file/d/1cuAvvbQPAs58FqiaJk6qogZDeyNpRh6B/view', title: 'CV', icon: <CiFolderOn /> },
+  { url: 'https://docs.google.com/document/d/1Qsyjep9YkoGkFQ3uIk8Q4TVFFLoSgSIgRzOXRrTQXio/edit', title: 'CV', icon: <CiFolderOn /> },
   { url: 'mailto:andrespulupa18@gmail.com', title: 'Contactame', icon: <FiMail /> }
 ]
 
@@ -30,7 +30,7 @@ const Header = () => {
             <ul className='flex gap-4 mt-3 flex-wrap justify-center'>
               {links.map(({ url, title, icon }) => (
                 <li key={url}>
-                  <a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href={url} target='_blank' rel='noreferrer'>
+                  <a className='flex gap-1 items-center transition ease-in-out delay-150 hover:scale-110 duration-300' href={url} target='_blank' rel='noreferrer' aria-label='Link to my social networks'>
                     {title}
                     {icon}
                   </a>

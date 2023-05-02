@@ -20,7 +20,7 @@ const Nav = () => {
             <div className='absolute inset-y-0 right-0 flex items-center sm:hidden'>
               <button
                 className='inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none'
-                aria-expanded='false'
+                aria-label='menu'
                 onClick={() => setIsOpen(!isOpen)}
               >
 
