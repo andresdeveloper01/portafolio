@@ -1,7 +1,7 @@
 [
   {
     "name": "Epic Movie",
-    "img": "https://github.com/andresdeveloper01/epic-movie/blob/main/photos/home.png?raw=true",
+    "img": "https://raw.githubusercontent.com/andresdeveloper01/epic-movie/main/photos/home.webp",
     "id": 1,
     "tecnologies": "React, React Player, React Icons, Tailwind",
     "repository": "https://github.com/andresdeveloper01/epic-movie",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Alura Geek",
-    "img": "https://github.com/andresdeveloper01/alura-geek/blob/main/photos/Captura%20de%20pantalla%202023-03-25%20094129.png?raw=true",
+    "img": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek/main/photos/home.webp",
     "id": 2,
     "tecnologies": "React, React Router DOM, React Icons, Tailwind",
     "repository": "https://github.com/andresdeveloper01/alura-geek",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Juego del ahorcado",
-    "img": "https://github.com/andresdeveloper01/Juego-Ahorcado/blob/master/Ahorcado.png?raw=true",
+    "img": "https://raw.githubusercontent.com/andresdeveloper01/Juego-Ahorcado/master/Ahorcado.webp",
     "id": 4,
     "tecnologies": "HTML, CSS, JavaScript",
     "repository": "https://github.com/andresdeveloper01/Juego-Ahorcado",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Encriptador de texto",
-    "img": "https://github.com/andresdeveloper01/Encriptador-de-Texto/blob/gh-pages/Encriptador.png?raw=true",
+    "img": "https://raw.githubusercontent.com/andresdeveloper01/Encriptador-de-Texto/main/Encriptador.webp",
     "id": 5,
     "tecnologies": "HTML, CSS, JavaScript",
     "repository": "https://github.com/andresdeveloper01/Encriptador-de-Texto",

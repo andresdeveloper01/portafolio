@@ -1,12 +1,12 @@
-import { FiMail } from 'react-icons/fi'
+import 'animate.css'
+import { useContext } from 'react'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { BsGithub } from 'react-icons/bs'
 import { CiFolderOn } from 'react-icons/ci'
-import 'animate.css'
-import photOfMe from '../assets/photoOfMe.png'
-import Nav from './Nav'
-import { useContext } from 'react'
+import { FiMail } from 'react-icons/fi'
+import photOfMe from '../assets/photoOfMe.webp'
 import { IntersectionObserver } from '../context/IntersectionObserver'
+import Nav from './Nav'
 
 const links = [
   {
