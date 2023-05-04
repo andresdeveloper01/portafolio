@@ -1,66 +1,29 @@
 @tailwind base;
 @tailwind components;
 .box {
-@apply w-fit flex justify-center pt-2 pr-2 pb-1 pl-3 gap-1 items-center border-[#d9d9d929] border-[1px] rounded-2xl transition ease-in-out delay-150 hover:scale-110 duration-300
+  @apply w-fit flex justify-center pt-2 pr-2 pb-1 pl-3 gap-1 items-center border-[#d9d9d929] border-[1px] rounded-2xl transition ease-in-out delay-150 hover:scale-110 duration-300;
 }
 .container-before {
-@apply before:bg-neutral-950 before:h-0 before:opacity-80 before:absolute before:transition-all before:duration-[0.4s] hover:before:h-full before:w-full
+  @apply before:bg-neutral-950 before:h-0 before:opacity-80 before:absolute before:transition-all before:duration-[0.4s] hover:before:h-full before:w-full;
 }
 @tailwind utilities;
 
 body {
   background: linear-gradient(to right, #141517 0%, #020405 100%);
   color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  
-}
-
-.navbar {
-  background: linear-gradient(to right, #141517 0%, #020405 100%);
-
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container-before {
-content: "";
+  content: "";
 }
 
 .container-before:hover :nth-child(2) {
-opacity: 1;
-top: 30%;
+  opacity: 1;
+  top: 0;
 }
 
 .active {
-border-bottom: 1px solid #fff;
-opacity:1;
-}
-
-
-@media (min-width: 400px) {
-  .container-before:hover :nth-child(2) {
-top: 40%;
-}
-}
-
-@media (min-width: 575px) {
-  .container-before:hover :nth-child(2) {
-top: 12%;
-}
-}
-
-@media (min-width: 768px) {
-  .container-before:hover :nth-child(2) {
-top: 6%;
-}
-}
-
-@media (min-width: 990px) {
-  .container-before:hover :nth-child(2) {
-top: 30%;
-}
-}
-
-@media (min-width: 1400px) {
-  .container-before:hover :nth-child(2) {
-top: 40%;
-}
+  border-bottom: 1px solid #fff;
+  opacity: 1;
 }
