@@ -58,7 +58,7 @@ const AboutMe = () => {
           {logos.map(({ name, logo }) => (
             <li key={name}>
               <article className='box'>
-                <p>{name}</p><img className='max-h-5 w-full h-full' src={logo} alt='HTML logo' />
+                <p>{name}</p><img className='max-h-5 w-full h-full' src={logo} alt={name} />
               </article>
             </li>
           ))}
