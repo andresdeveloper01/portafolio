@@ -41,7 +41,7 @@
   },
   {
     "name": "Todo App",
-    "img": "https://raw.githubusercontent.com/andresdeveloper01/epic-movie/main/photos/todoApp.webp",
+    "img": "https://raw.githubusercontent.com/andresdeveloper01/todo-list-typescript/main/photos/todoApp.webp",
     "id": 6,
     "tecnologies": "HTML,CSS, TypeScript",
     "repository": "https://github.com/andresdeveloper01/todo-list-typescript",
