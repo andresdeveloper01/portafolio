@@ -38,5 +38,13 @@
     "tecnologies": "HTML, CSS, JavaScript",
     "repository": "https://github.com/andresdeveloper01/Encriptador-de-Texto",
     "web": "https://andresdeveloper01.github.io/Encriptador-de-Texto/"
+  },
+  {
+    "name": "Todo App",
+    "img": "https://raw.githubusercontent.com/andresdeveloper01/epic-movie/main/photos/todoApp.webp",
+    "id": 6,
+    "tecnologies": "HTML,CSS, TypeScript",
+    "repository": "https://github.com/andresdeveloper01/todo-list-typescript",
+    "web": "https://andres-todoapp-typescript.vercel.app/"
   }
 ]
